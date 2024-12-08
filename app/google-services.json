@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1047000762092",
+    "firebase_url": "https://habituary-edit-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "habituary-edit",
+    "storage_bucket": "habituary-edit.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047000762092:android:45d31c7e7ddd7ae12547c9",
+        "android_client_info": {
+          "package_name": "ag.mobile.habituaryfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoclUa57B5Qw72Q8VtaM0-WR40HaIVwNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
