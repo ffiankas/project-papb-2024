@@ -16,7 +16,7 @@ import java.util.List;
 
 import ffs.mobile.habituary.model.Habits;
 
-public class GoalsAdapter extends RecyclerView.Adapter<GoalsAdapter.VH> { // Ubah untuk menggunakan Generic Type
+public class GoalsAdapter extends RecyclerView.Adapter<GoalsAdapter.VH> {
     private final Context ctx;
     private List<Habits> habitList;
     public Habits habitsDelete;

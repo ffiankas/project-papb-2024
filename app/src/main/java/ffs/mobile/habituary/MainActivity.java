@@ -6,6 +6,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import ffs.mobile.habituary.Fragment.AddHabitFragment;
+import ffs.mobile.habituary.Fragment.GetHabitFragment;
+
 public class MainActivity extends AppCompatActivity {
 
     private FragmentManager fm;
@@ -17,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
 
         this.fm = this.getSupportFragmentManager();
         FragmentTransaction ft = this.fm.beginTransaction();
-        ft.add(R.id.container_atas, new GetHabitFragment(), "GHF");
-        ft.add(R.id.container_bawah, new AddHabitFragment(), "AHF");
+        ft.add(R.id.container_bawah, new GetHabitFragment(), "GHF");
+        ft.add(R.id.container_atas, new AddHabitFragment(), "AHF");
         ft.commit();
     }
 }

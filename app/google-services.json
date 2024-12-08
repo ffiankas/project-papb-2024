@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "825493661048",
+    "project_id": "pam-c-a737f",
+    "storage_bucket": "pam-c-a737f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825493661048:android:9c0b49fdc0e3623ba1148d",
+        "android_client_info": {
+          "package_name": "ffs.mobile.habituary"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-Gffbjo9vWOywjFEqQufivPCvUBM1kCY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
